@@ -1,3 +1,5 @@
+import Footer from './components/Footer'
+import GetInTouch from './components/GetInTouch'
 import Main from './components/Main'
 import Navbar from './components/Navbar'
 import NavBarTwo from './components/NavbarTwo'
@@ -12,6 +14,8 @@ function App() {
       <Main />
       <Skills />
       <Technologies />
+      <GetInTouch />
+      <Footer />
     </div>
   )
 }
