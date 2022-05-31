@@ -2,6 +2,12 @@ import { SiTailwindcss } from 'react-icons/si'
 import { FaReact } from 'react-icons/fa'
 import { FaDocker } from 'react-icons/fa'
 import { SiAnsible } from 'react-icons/si'
+import { SiJavascript } from 'react-icons/si'
+import { SiTypescript } from 'react-icons/si'
+import { SiMaterialui } from 'react-icons/si'
+import { FcLinux } from 'react-icons/fc'
+import { SiMysql } from 'react-icons/si'
+import { SiPrometheus } from 'react-icons/si'
 
 const Technologies = () => {
   return (
@@ -26,22 +32,24 @@ const Technologies = () => {
           <FaDocker class="text-6xl" style={{ color: '#2496ed' }} />
         </div>
         <div class="w-20 h-14  flex-[1_0_20%] p-10">
-          <SiTailwindcss class="text-6xl text-red-600 " />
+          <SiJavascript class="text-6xl" style={{ color: '#f7df1e' }} />
         </div>
         <div class="w-20 h-14  flex-[1_0_20%] p-10">
-          <SiTailwindcss class="text-6xl text-red-600 " />
+          <FcLinux class="text-6xl" />
         </div>
         <div class="w-20 h-14  flex-[1_0_20%] p-10">
-          <SiTailwindcss class="text-6xl text-red-600 " />
+          <SiTypescript class="text-6xl" style={{ color: '#fff' }} />
         </div>
         <div class="w-20 h-14  flex-[1_0_20%] p-10">
-          <SiTailwindcss class="text-6xl text-red-600 " />
+          <SiMaterialui class="text-6xl" style={{ color: '#0072E5' }} />
         </div>
         <div class="w-20 h-14  flex-[1_0_20%] p-10">
-          <SiTailwindcss class="text-6xl text-red-600 " />
+          <SiMysql class="text-6xl" style={{ color: '#3E6E93' }} />
         </div>
         <div class="w-20 h-14  flex-[1_0_20%] p-10">
-          <SiTailwindcss class="text-6xl text-red-600 " />
+          <a href="https://prometheus.io/" target="_blank">
+            <SiPrometheus class="text-6xl" style={{ color: '#e6522c' }} />
+          </a>
         </div>
       </div>
     </section>
