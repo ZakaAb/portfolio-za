@@ -3,7 +3,8 @@ import { FaReact } from 'react-icons/fa'
 import { FaDocker } from 'react-icons/fa'
 import { SiAnsible } from 'react-icons/si'
 import { SiJavascript } from 'react-icons/si'
-import { SiTypescript } from 'react-icons/si'
+import { FaGitlab } from 'react-icons/fa'
+
 import { SiMaterialui } from 'react-icons/si'
 import { FcLinux } from 'react-icons/fc'
 import { SiMysql } from 'react-icons/si'
@@ -38,7 +39,7 @@ const Technologies = () => {
           <FcLinux class="text-6xl" />
         </div>
         <div class="w-20 h-14  flex-[1_0_20%] p-10">
-          <SiTypescript class="text-6xl" style={{ color: '#fff' }} />
+          <FaGitlab class="text-6xl" style={{ color: '#fca326' }} />
         </div>
         <div class="w-20 h-14  flex-[1_0_20%] p-10">
           <SiMaterialui class="text-6xl" style={{ color: '#0072E5' }} />
