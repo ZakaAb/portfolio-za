@@ -15,13 +15,13 @@ function Main() {
   }, [])
 
   return (
-    <section class="bg-neutral-900 p-10">
-      <span class=" flex container mx-auto">
-        <div class="w-2/4 flex flex-col justify-center text-white">
-          <h1 class="text-6xl font-semibold leading-tight">
+    <section class="bg-neutral-900">
+      <div class="flex  container mx-auto p-10 space-x-10 flex-col text-center items-center md:flex-row md:text-left">
+        <div class="md-3/4 flex flex-col justify-center text-white md:w-2/4">
+          <h1 class="text-4xl font-semibold leading-tight md:text-6xl pb-3">
             Hi I'm <span class="text-red-600">Zakaria</span>
           </h1>
-          <h2 class="text-4xl font-semibold leading-tight">
+          <h2 class="text-4xl font-semibold leading-tight flex justify-center md:justify-start">
             <TextTransition
               text={TEXTS[index % TEXTS.length]}
               springConfig={presets.wobbly}
@@ -35,10 +35,10 @@ function Main() {
             Et nisi laboris elit enim voluptate pariatur.
           </h1>
         </div>
-        <div class="w-2/4">
+        <div class="w-2/4 hidden justify-center md:flex">
           <img src={laptopWithHand} />
         </div>
-      </span>
+      </div>
     </section>
   )
 }

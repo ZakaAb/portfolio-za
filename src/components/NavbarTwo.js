@@ -11,9 +11,9 @@ const NavBarTwo = () => {
         /> */}
         <img src={Logo} width="75" alt="default" class="bg-neutral-900" />
 
-        <strong class="text-white tracking-widest text-xl">
+        {/* <strong class="text-white tracking-widest text-xl">
           ZACK'S WEBSITE
-        </strong>
+        </strong> */}
         <nav>
           <a class="px-4 py-2 font-bold text-white bg-transparent rounded hover:text-red-600 cursor-pointer uppercase">
             Skills
