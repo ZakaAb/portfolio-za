@@ -9,7 +9,7 @@ const NavBarTwo = () => {
   }
   return (
     <header class=" bg-neutral-900">
-      <div class="flex items-center justify-between px-10 py-4 container mx-auto">
+      <div class="flex items-center sm:justify-between justify-center px-10 py-4 container mx-auto">
         {/*  <img
           src="https://cdn.hashnode.com/res/hashnode/image/upload/v1643004937711/k3NMskkSn.png"
           width="50"
