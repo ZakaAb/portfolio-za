@@ -56,7 +56,7 @@ const data = [
     color: '#3E6E93',
   },
   {
-    id: 9,
+    id: 10,
     icon: SiPrometheus,
     color: '#e6522c',
   },
