@@ -26,7 +26,7 @@ const data = [
 
 function Skills() {
   return (
-    <section class="bg-slate-100 flex items-center">
+    <section class="bg-slate-100 flex items-center" id="skills">
       <div class="container mx-auto flex flex-col md:justify-between md:flex-row py-24 md:space-x-10 space-y-10 md:space-y-0 items-center">
         {data.map((item) => (
           <SkillItem

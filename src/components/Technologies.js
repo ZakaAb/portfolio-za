@@ -70,7 +70,7 @@ const TechItem = ({ icon: Icon, color }) => (
 
 const Technologies = () => {
   return (
-    <section class=" bg-neutral-900">
+    <section class=" bg-neutral-900" id="technologies">
       <div class="container mx-auto flex justify-center items-center flex-col pt-24 pb-36">
         <h1 class="md:text-4xl text-2xl uppercase font-semibold text-white mb-10">
           Technologies

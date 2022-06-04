@@ -14,9 +14,12 @@ const NavBarTwo = () => {
         {/* <strong class="text-white tracking-widest text-xl">
           ZACK'S WEBSITE
         </strong> */}
-        <nav>
+        <nav class="sm:block hidden">
           <a class="px-4 py-2 font-bold text-white bg-transparent rounded hover:text-red-600 cursor-pointer uppercase">
             Skills
+          </a>
+          <a class="px-4 py-2 font-bold text-white bg-transparent rounded hover:text-red-600 cursor-pointer uppercase">
+            Technologies
           </a>
           <a class="px-4 py-2 font-bold text-white bg-transparent rounded hover:text-red-600 cursor-pointer uppercase">
             Contact
